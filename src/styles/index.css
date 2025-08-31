@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-border: #e2e8f0; /* slate-200 */
+  --color-input: #e2e8f0; /* slate-200 */
+  --color-ring: #3b82f6; /* blue-500 */
+  --color-background: #f8fafc; /* slate-50 */
+  --color-foreground: #1e293b; /* slate-800 */
+  --color-primary: #1e40af; /* blue-800 */
+  --color-primary-foreground: #ffffff; /* white */
+  --color-secondary: #475569; /* slate-600 */
+  --color-secondary-foreground: #ffffff; /* white */
+  --color-destructive: #ef4444; /* red-500 */
+  --color-destructive-foreground: #ffffff; /* white */
+  --color-muted: #f1f5f9; /* slate-100 */
+  --color-muted-foreground: #64748b; /* slate-500 */
+  --color-accent: #3b82f6; /* blue-500 */
+  --color-accent-foreground: #ffffff; /* white */
+  --color-popover: #ffffff; /* white */
+  --color-popover-foreground: #1e293b; /* slate-800 */
+  --color-card: #ffffff; /* white */
+  --color-card-foreground: #1e293b; /* slate-800 */
+  --color-success: #10b981; /* emerald-500 */
+  --color-success-foreground: #ffffff; /* white */
+  --color-warning: #f59e0b; /* amber-500 */
+  --color-warning-foreground: #ffffff; /* white */
+  --color-error: #ef4444; /* red-500 */
+  --color-error-foreground: #ffffff; /* white */
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
